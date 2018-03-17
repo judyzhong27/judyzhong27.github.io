@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Questrial:300,300i,400,400i");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300,300i,400,400i");
 
 /*
 	Story by HTML5 UP
@@ -16,6 +16,51 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+	}
+
+	/* Add a black background color to the top navigation */
+	.topnav {
+	opacity: 0.5;
+    background-color: #ffffff;
+    overflow: visible;
+    position: fixed;
+    right: 0;
+	}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+	.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+/* Style the links inside the navigation bar */
+	.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 17px;
+	}
+
+/* Change the color of links on hover */
+	.topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+	}
+
+/* Add a color to the active/current link */
+	.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
