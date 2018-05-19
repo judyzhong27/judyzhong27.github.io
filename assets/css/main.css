@@ -2532,6 +2532,13 @@
 				width: 100%;
 			}
 
+		.center {
+    		display: block;
+    		margin-left: 20px;
+    		margin-right: 20px;
+    		width: 25%;
+}
+
 /* List */
 
 	ol {
