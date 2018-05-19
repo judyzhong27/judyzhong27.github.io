@@ -109,6 +109,11 @@
 		height: 0;
 	}
 
+	.threeimages {
+  		flex-flow: row nowrap;
+  		text-align: center;
+}	}
+
 	.row.uniform > * > :first-child {
 		margin-top: 0;
 	}
@@ -1730,7 +1735,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 1000;
 	}
 
 	em, i {
