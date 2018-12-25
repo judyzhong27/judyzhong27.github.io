@@ -20,6 +20,13 @@ body a
     transition: color .2s linear;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body a:hover
 {
     color: #f277ae;
