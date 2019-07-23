@@ -889,13 +889,13 @@ button {
 @font-face
 {
 font-family: CircularStd-Bold;
-src: url('CircularStd-Bold.otf'),
+src: url('fonts/CircularStd-Bold.otf'),
 url('CircularStd-Bold.otf');
 }
 
 @font-face
 {
 font-family: CalibreRegular;
-src: url('CalibreRegular.otf'),
+src: url('fonts/CalibreRegular.otf'),
 url('CalibreRegular.otf');
 }
