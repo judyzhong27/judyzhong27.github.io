@@ -884,3 +884,18 @@ button {
 .bottom-button {
   width: 80%;
 }
+
+/*Font importing */
+@font-face
+{
+font-family: CircularStd-Bold;
+src: url('CircularStd-Bold.otf'),
+url('CircularStd-Bold.otf');
+}
+
+@font-face
+{
+font-family: CalibreRegular;
+src: url('CalibreRegular.otf'),
+url('CalibreRegular.otf');
+}
