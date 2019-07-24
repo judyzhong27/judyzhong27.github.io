@@ -1,7 +1,3 @@
-/* Custom font import */
-@font-face { font-family: CalibreRegular; src: url('CalibreRegular.otf'); }
-@font-face { font-family: CalibreRegular; font-weight: bold; src: url('CalibreRegular.otf');}
-
 /* Project bg images */
 .project-bg-img {
     background-repeat: no-repeat;
@@ -45,13 +41,15 @@
   background-image: url("assets/blueprint-case/blueprint-home.png");
 }
 
+#candycutlery-bg {
+  background-image: url("assets/candycutlery-case/candycutlery-home.png");
+}
 /* Nav bar styling */
 .nav-item {
   margin: 0 auto;
   padding: 15px;
   margin-top: 40px;
-  font-family: 'CircularStd-Bold', sans-serif;
-  font-weight: 600px;
+  font-family: 'DM Sans', sans-serif;
   font-size: 18px;
 }
 
@@ -76,8 +74,7 @@
 
 .back-to-top-link {
   color: black;
-  font-weight: 600;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 24px;
   text-align: center;
   text-decoration: none;
@@ -98,7 +95,7 @@ hr.yellow {
 }
 
 h5 {
-  font-family: 'CircularStd-Bold', sans-serif
+  font-family: 'DM Sans', sans-serif
 }
 
 h3 {
@@ -106,7 +103,7 @@ h3 {
   color: #000000;
   font-weight: 600;
   padding-bottom: 15px;
-  font-family: 'CalibreRegular', sans-serif; }
+  font-family: 'Heebo', sans-serif; }
 
 .footer-basic-centered{
 	background-color: #ffffff;
@@ -115,7 +112,7 @@ h3 {
 	width: 100%;
 	text-align: center;
 	font: normal 18px sans-serif;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 	padding-bottom: 45px;
 	/* margin-top: 500px; */
   text-align: center;
@@ -126,7 +123,7 @@ h3 {
 	color:  #000000;
 	font-size: 24px;
 	margin: 0;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding-top: 60px;
 }
 
@@ -134,7 +131,7 @@ h3 {
 	color:  #000000;
 	font-size: 16px;
 	margin: 0;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
   padding-bottom: 15px;
 }
 
@@ -144,7 +141,7 @@ h3 {
 	font-size: 14px;
 	margin: 0;
   padding-bottom: 40px;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
 
 }
 
@@ -154,14 +151,14 @@ h3 {
 	color:  #000000;
 	padding: 0px 0 23px;
 	margin: 0;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .footer-basic-centered .footer-links a{
 	display:inline-block;
 	text-decoration: none;
 	color: inherit;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
 }
@@ -169,7 +166,7 @@ h3 {
 #paschka {
   display: block;
   color:white;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size:32px;
   text-decoration: none;
   position: fixed;
@@ -229,16 +226,8 @@ h3 {
   color: #000000;
   font-weight: 600;
   padding-bottom: 15px;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
-
-/* Custom font import */
-@font-face { font-family: CalibreRegular; src: url('CalibreRegular.otf'); }
-@font-face { font-family: CalibreRegular; font-weight: bold; src: url('CalibreRegular.otf');}
-
-/* Custom font import */
-@font-face { font-family: CircularStd-Bold; src: url('CircularStd-Bold.otf'); }
-@font-face { font-family: CircularStd-Bold; font-weight: bold; src: url('CircularStd-Bold.otf');}
 
 /* Case study text */
 .section {
@@ -285,12 +274,11 @@ h3 {
 }
 
 p.home-page-subheading {
-  /* font-family: 'CircularStd-Bold', sans-serif; */
   font-size: 16px;
   display: block;
   text-align: center;
   padding-top: 4vh;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
   /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -300,7 +288,7 @@ p.home-page-subheading {
 h1.case-title {
   font-weight: 700;
   font-size: 40px;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   text-align: center;
 }
 
@@ -309,11 +297,11 @@ h4 {
   color: #FFC700;
   font-weight: 600;
   padding-bottom: 20px;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 p.container {
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 10px;
   text-align: left;
   display: block;
@@ -329,7 +317,7 @@ p.container {
   /* margin-right: auto;
   margin-left: auto; */
   margin: 0 auto;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
   box-sizing: inherit;
   display: block;
   padding-left: 14%;
@@ -346,7 +334,7 @@ p.container {
 h2 {
   margin: 0;
   color: black;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 32px;
   text-align: left;
   font-weight: 600;
@@ -355,7 +343,7 @@ h2 {
 #case-title  h2 {
   margin: 0 auto;
   color: #FFC700;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 32px;
   text-align: left;
   font-weight: 600;
@@ -493,7 +481,7 @@ button {
   cursor: pointer;
   border-radius: 40px;
   white-space: nowrap;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 #wrapper {

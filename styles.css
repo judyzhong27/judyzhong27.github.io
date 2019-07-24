@@ -38,11 +38,11 @@ h2 {
 
 body, html {
   height: 100%;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 body {
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .full-bg-img {
@@ -62,7 +62,7 @@ body {
   margin: 0 auto;
   padding: 15px;
   margin-top: 40px;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 600px;
   font-size: 18px;
 }
@@ -75,8 +75,8 @@ body {
 
 h1.page-title {
   font-weight: 700;
-  font-size: 50px;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-size: 45px;
+  font-family: 'DM Sans', sans-serif;
   text-align: left;
   padding-top: 30px;
 }
@@ -85,12 +85,12 @@ h1.section-title {
   color: #FAC933;
   font-weight: 700;
   font-size: 40px;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding-top: 4vh;
 }
 
 p.home-page-subheading {
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   display: block;
   padding-top: 4vh;
@@ -104,7 +104,7 @@ h2 {
   font-size: 38px;
   font-weight: 600;
   line-height: 7vh;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .row {
@@ -113,10 +113,10 @@ h2 {
 
 p {
   /* padding-top: 20px; */
-  font-size: 16px;
+  font-size: 18px;
   /* padding-bottom: 20px; */
-  font-family: 'CalibreRegular', sans-serif;
-  line-height: 3.5vh;
+  font-family: 'Heebo', sans-serif;
+  line-height: 4vh;
 }
 
 .div {
@@ -268,7 +268,7 @@ html,body {
     display: block;
     text-transform: uppercase;
     color: #b91a2f;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size:14px;
   font-weight:bold;
   letter-spacing:.1em;
@@ -499,7 +499,7 @@ html,body {
 #paschka {
   display: block;
   color:white;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size:32px;
   text-decoration: none;
   position: fixed;
@@ -563,7 +563,7 @@ html,body {
 	width: 100%;
 	text-align: center;
 	font: normal 18px sans-serif;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 	padding: 45px;
 }
 
@@ -571,7 +571,7 @@ html,body {
 	color:  #000000;
 	font-size: 24px;
 	margin: 0;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding-top: 60px;
 }
 
@@ -579,7 +579,7 @@ html,body {
 	color:  #000000;
 	font-size: 16px;
 	margin: 0;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
   padding-bottom: 15px;
 }
 
@@ -597,7 +597,7 @@ html,body {
 	color:  #000000;
 	padding: 0px 0 23px;
 	margin: 0;
-  font-family: 'CircularStd-Bold', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 
 }
 
@@ -605,8 +605,7 @@ html,body {
 	display:inline-block;
 	text-decoration: none;
 	color: inherit;
-  font-family: 'CircularStd-Bold', sans-serif;
-  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
 }
 
@@ -647,7 +646,7 @@ h3 {
   color: #000000;
   font-weight: 600;
   padding-bottom: 15px;
-  font-family: 'CalibreRegular', sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 /* Custom font import */
