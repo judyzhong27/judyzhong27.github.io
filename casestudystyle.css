@@ -44,6 +44,10 @@
 #candycutlery-bg {
   background-image: url("assets/candycutlery-case/candycutlery-home.png");
 }
+
+#rideshare-bg {
+  background-image: url("assets/rideshare-case/rideshare-home.png");
+}
 /* Nav bar styling */
 .nav-item {
   margin: 0 auto;
