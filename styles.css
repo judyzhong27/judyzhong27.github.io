@@ -46,7 +46,7 @@ body {
 }
 
 .full-bg-img {
-    /* background-image: url("bg-image.png"); */
+    background-image: url("bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
