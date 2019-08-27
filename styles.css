@@ -14,7 +14,7 @@
 
 .nav-link {
   color: black;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .card {
@@ -24,7 +24,7 @@
 
 h2 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 40px;
 }
 
@@ -63,7 +63,7 @@ body {
   padding: 15px;
   margin-top: 40px;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 600px;
+  font-weight: 700;
   font-size: 18px;
 }
 
@@ -79,6 +79,7 @@ h1.page-title {
   font-family: 'DM Sans', sans-serif;
   text-align: left;
   padding-top: 30px;
+  color: #2A2A2A;
 }
 
 h1.section-title {
@@ -100,15 +101,31 @@ p.home-page-subheading {
   margin-inline-end: 0px; */
 }
 
+p.home-subtitle {
+  font-size: 18px;
+  /* padding-bottom: 20px; */
+  font-family: 'DM Sans', sans-serif;
+  line-height: 4vh;
+  font-weight: 400;
+}
+
 h2 {
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 7vh;
   font-family: 'DM Sans', sans-serif;
 }
 
 .row {
   align-items: center;
+}
+
+p.home-subtitle {
+  font-size: 18px;
+  /* padding-bottom: 20px; */
+  font-family: 'DM Sans', sans-serif;
+  line-height: 4vh;
+  font-weight: 400;
 }
 
 p {
@@ -159,7 +176,7 @@ a {
     margin-right: 0px;
     margin-left: 0px;
     padding: 12px 16px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     font-size: 24px;
     color: #000000;
@@ -186,7 +203,7 @@ a {
     font-family: Maisonneue, sans-serif;
     color: rgba(0, 0, 0, .6);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0px;
     text-transform: none;
     list-style-type: none;
@@ -644,22 +661,21 @@ html,body {
 h3 {
   font-size: 24px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 15px;
   font-family: 'Heebo', sans-serif;
 }
 
-/* Custom font import */
-@font-face { font-family: CalibreRegular; src: url('CalibreRegular.otf'); }
-@font-face { font-family: CalibreRegular; font-weight: bold; src: url('CalibreRegular.otf');}
-
-/* Custom font import */
-@font-face { font-family: CircularStd-Bold; src: url('CircularStd-Bold.otf'); }
-@font-face { font-family: CircularStd-Bold; font-weight: bold; src: url('CircularStd-Bold.otf');}
-
 hr {
   height: 8px;
   color: #FFC700;
+}
+
+.work
+hr {
+  height: 10px;
+  color: #ffc700;
+  width: 1vh;
 }
 
 .hr-section hr {
@@ -669,7 +685,7 @@ hr {
 a.home-page-contact-links {
   text-decoration: none;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
 }
 
@@ -768,6 +784,7 @@ button {
 .arrow{
   text-align:left;
   padding-left:17px;
+  font-weight: 700;
   color: white;
 }
 
