@@ -29,7 +29,7 @@
 
     <!-- Back to top button -->
 <div id="top">
-		<div class="section project-bg-img" id="onboarding-bg">
+		<div class="section project-bg-img" id="system-bg">
       <nav class="navbar navbar-expand-sm">
 
 				<a class="navbar-brand" href="index.html">
@@ -65,7 +65,7 @@
             <div class='col-sm-2'></div>
             <div class='col-sm-8'>
 					  <h1 class="case-title">Creating the Waffle Design System</h1>
-  					<p class="home-page-subheading" id="subheading">Unifying reebee's visual language across web, mobile, and brand platforms for millions of users</p>
+  					<p class="home-page-subheading" id="subheading">Unifying reebee's visual language across web, mobile, and brand platforms</p>
           </div>
           <div class="col-sm-2"></div>
           </div>
@@ -82,7 +82,7 @@
             <div class="col-sm-6">
           <h4>OVERVIEW</h4>
           <p>With rapid growth in sight, reebee hopes to build out their design team and plans for several new features within the year. To achieve consistency across the platform, I began to advocate for the importance of a design system for our products to stakeholders.</p>
-          <p>With a solid design system, designers and developers can reference it to guide all aspects of the user experience from the conceptual building blocks of the product, to the details of the UI and which components are used where.</p>
+          <p>Forming a solid design system for designers and developers to reference the reusable components and design principles to guide aspects of the user experience from the conceptual building blocks of the product, to the details of the UI.</p>
 
         </div>
         <div class="col-sm-6">
@@ -132,327 +132,137 @@
       <h2>Solution</h2>
       <div style="padding-top: 3%;">
           <h4>A Design System</h4>
-          <p>As projects grow over time, and people come and go, it becomes increasingly difficult to align on a vision for design. The business values may change, the industry shifts, and collaboration becomes more complicated.</p>
+          <p>As projects grow over time, and people come and go, it becomes increasingly difficult to align on a vision for design. The business values may change, the industry shifts, and collaboration becomes more complicated. Documentation at each step of the design process was essential to cover all our bases.</p>
 
     </div>
 
     <h2 style="padding-top:5vh;">Challenges</h2>
-    <p style="padding-top: 3%;">Throughout my co-op term with reebee, I had to stay persistent in advocating for the design of the application and to keep me in the loop for product changes. As the only designer, I found receiving feedback directly on my design was difficult to find and often consulted with developers and the co-founders on my decisions for validation. Going into this project, I knew my designs had to be accompanied by lots of support and explanation to make sure everyone understood the reasoning behind specific stylistic choices or UX flows.</p>
-    <p>Onboarding involved getting to know the app better and understanding what users were getting confused on/were annoyed at learning. This was my first project coming into reebee and learning it as quickly as possible delayed my progress at the beginning of the project.</p>
+    <div class="row" style="padding-top: 3%;">
+      <div class='col-sm-4'>
+        <h4>1. Old design → new design</h4>
+        <p>During the time we were developing this design system, one of my other projects involved redesigning the entire app to refresh its outdated UI according to modern standards and pressure from the competition.</p>
+      </div>
+      <div class='col-sm-4'>
+        <h4>2. Getting everyone focused</h4>
+        <p>The company was very business-driven and oftentimes the product team focused on getting new features out in order to meet new business goals and advance the application. Documenting their work wasn't a top priority and most of the team weren't aware of design systems in the first place. </p>
+      </div>
+      <div class='col-sm-4'>
+        <h4>3. Cross-platform uniqueness</h4>
+        <p>Inconsistences between platforms made documentation difficult, and consulting the Material Design, Human Interface Guidelines, and Web Design practices and the specific properties of each one needed to make its way into the design system.</p>
+      </div>
+
+  </div>
 
   </div>
 </div>
 
 <div class="gray-highlight-section">
   <div class="highlight-text">
-    <h2>Some context</h2>
-    <p style="padding-top:30px;">Here is the current reebee onboarding flow</p>
-    <img id="image" class="center" src="assets/onboarding-case/current-onboarding-flow.png" style="padding-top:2%; width: 100%;">
-    <div style="padding-top:5vh;" class="row">
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Absence of location priming</p>
-        <p>One of the best practices in user experience is keeping your process as transparent as possible where you can. Upon entry, users are asked immediately for their location, which is needed to locate flyers that apply to their area so to maximize the experience.</p>
-      </div>
+    <h2>Learning phase</h2>
+    <p style="padding-top:30px;">The idea for the project came upon hearing about how each platform of reebee was shockingly different - different components, design, colours, icons, etc. To start, I investigate and took screenshots of the app on iOS and Android and the web, put them side by side to review its uniformity and how to prioritize building the design system.</p>
+    <img id="image" class="center" src="assets/system-case/buttons.png" alt="Different button styles on reebee's platforms"style="padding-top:2%; width: 60%;">
+    <p style='text-align: center; padding-top: 30px;'>Figure: Samples of buttons you'll see on reebee's platforms today</p>
+    <p style="padding-top:30px;">Evidently, the buttons are random on different platforms looking irregular with little guidance provided to developers on which standard to use, and how to create that set component in implementation.</p>
+    <p>reebee valued giving iOS and Android a design that matched their respective operating systems in a way that the users would recognize. However, in development the two platforms diverged more and more the past few years without a redesign and have proceeded to deliver different styles and experiences to users on either platform.</p>
+    <img id="image" class="center" src="assets/system-case/androidios.png" alt="A comparison of reebee on web, iOS and Android" style="padding-top:2%; width: 80%;">
+    <p style='text-align: center; padding-top: 30px;'>Figure: The home screen and search results screen of Android placed next to iOS and the web</p>
 
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Lack of brand personality</p>
-        <p>These days, long-term business growth means adding personality to your brand - avoid being a cold piece of software our users don't feel welcomed in.</p>
-      </div>
 
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Intrusive consecutive tooltips that go unread</p>
-        <p>90% of users tend to skip the product tours of an application, finding them disruptive to the workflow and discovery of the new app. Although, we did find them important in making sure that users understood how to get from point A to point B.</p>
-      </div>
-
-    </div>
   </div>
 </div>
 
 <div class="container">
   <div class="case-title">
-    <h2>What should we learn?</h2>
+    <h2>First steps</h2>
     <div class="row" style="padding-top: 4vh;">
       <div class='col-sm-6'>
-        <p>I started by framing the problem through questions</p>
-        <ul id="bullet-list">
-          <li>Why do customers need our product?</li>
-          <li>What value does reebee bring to customers?</li>
-          <li>How does reebee’s value proposition compare to similar applications?</li>
-          <li>Where are users getting stuck/experiencing a barrier?</li>
-          <li>What are some of the different directions I can take to onboard?</li>
-        </ul>
+        <p>As I began building the system, I researched extensively on existing design systems such as <a href="https://polaris.shopify.com">Shopify's Polaris</a>, <a href="">Skyscanner's Backpack</a>, and <a href="">Salesforce's Lightning Design System</a>.</p>
+          <p>To unify our workflow across the company, I set out to identify guiding principles for reebee. I had only been at the company a short time, and decided to interview our co-founders and employees to get a better impression of what they valued for our product and in company branding.</p>
       </div>
       <div class='col-sm-6'>
-        <img id="image" style="margin: 0 auto; width: 100%;" src="assets/onboarding-case/reebee-review.png">
+        <img id="image" style="margin: 0 auto; width: 100%;" src="assets/system-case/cofounders.png" alt="Co-founders of reebee Inc., Tobiasz and Michal">
+        <p style="text-align:center; padding-top: 30px;">Figure: Interviewing Tobiasz and Michal, reebee's co-founders</p>
+
       </div>
     </div>
-    <h2 style="padding-top:5vh;">How do we learn it?</h2>
-    <div class="row" style="padding-top:3%;">
-      <div class='col-sm-4'>
-        <h4>METHODS</h4>
-        <ol>
-          <li>Customer feedback through app store reviews and reebee inbox</li>
-          <li>Interviews with stakeholders</li>
-          <li>Data metrics</li>
-          <li>User interviews</li>
-        </ol>
-      </div>
-      <div class='col-sm-4'>
-        <h4>PARTICIPANTS</h4>
-        <ol>
-          <li>Regular reebee users</li>
-          <li>New reebee users</li>
-          <li>Stakeholders</li>
-          <li>Customer service team</li>
-      </div>
-      <div class='col-sm-4'></div>
-  </div>
+
 </div>
 </div>
 
 <div class="gray-highlight-section">
   <div class="highlight-text">
-    <h2>Insights</h2>
-    <p style="padding-top:30px;">Synthesizing the data to find the most used features, where users were getting confused, what the stakeholders wanted to achieve, and finding reebee’s value proposition  through stakeholder interviews, contextual inquiry, and analyzing the gathered data against metrics from our Firebase console and Fabric analytics.</p>
 
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <p>Why do customers need our product?</p>
-    <ol>
-      <li>Save money</li>
-      <li>Finding their items online</li>
-      <li>Keeping track of their shopping list</li>
-    </ol>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <p>What value does reebee bring to customers?</p>
-    <ol>
-      <li>Browsing flyers digitally and easily</li>
-      <li>Searching for items and seeing deals</li>
-      <li>Saving and adding items to a shopping list</li>
-    </ol>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <p>What are some of the different directions I can take to onboard?</p>
-    <ul>
-      <li>Interactive tour through the product's core feature</li>
-      <li>Tooltips to guide the user through features of the app</li>
-      <li>Full screen walkthrough at the beginning of the application as a series of instruction elements</li>
-      <li>Introducing features as the user finds new screens in the app (ongoing)</li>
-    </ul>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <p>Where are users getting stuck/experiencing a barrier?</p>
-    <ul>
-      <li>Main screen - user becomes overwhelmed with the degree of flyer content which may/may not pertain to their shopping needs. They aren't sure where to get to next</li>
-      <li>No sense of personalization may be deterring</li>
-      <li>Lack of colours, graphics, engaging content</li>
-    </ul>
+<div class="row">
+  <div class="col-sm-2">
   </div>
+  <div class="col-sm-8">
+    <div style="padding-bottom:10px;"><hr class="yellow" align="center" width="5%" height="8px" color="#ffc700"></div>
+
+    <h4 style="padding-top:30px; text-align:center;">INTRODUCING THE WAFFLE DESIGN SYSTEM</h4>
+    <p style="text-align:center;">The reebee Waffle Design System includes design guidelines, components and principles of our brand and mission. It is a central location for current and future designers and developers of reebee to refine our products and keep up with a changing industry.
+
+    <br><br>With a library of standards, designers can focus on improving the user experience, interactions, and workflows our users know us for.</p>
+    <p style="font-size: 13px; color:#757575; text-align:center;">Naming explanation: During my co-op term, reebee hosted Waffle Wednesdays with free waffles for the whole office.</p>
+    <div style="padding-top:10px;"><hr class="yellow" align="center" width="5%" height="8px" color="#ffc700"></div>
+
+</div>
+<div class="col-sm-2">
+</div>
+</div>
+
+    <h2 style="padding-top:30px;">Principles</h2>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <img id="image" align="left" src="assets/system-case/coffee.png" alt="Steaming coffee icon"style="padding-top:10%; width: 12%;"/><br><br><br><br>
+        <h2 style="font-size: 20px;"><b>Intuitive by nature</b></h2><br>
+        <p>Our users rely on our product to deliver a frictionless, simple application. Straying away from complexity brings users closer to their goals and keeps them informed on next steps.</p>
+      </div>
+      <div class="col-sm-4">
+        <img id="image" align="left" src="assets/system-case/book.png" alt="Open book icon"style="padding-top:10%; width: 12%;"/><br><br><br><br>
+        <h2 style="font-size: 20px;">Content first</h2><br>
+        <p>The content from our partnerships is our primary selling point to users. The presentation of our flyers encourages discoverability and enhances engagement.</p>
+      </div>
+      <div class="col-sm-4">
+        <img id="image" align="left" src="assets/system-case/graph.png" alt="Increasing graph icon"style="padding-top:10%; width: 12%;"/><br><br><br><br>
+        <h2 style="font-size: 20px;">Driven by data</h2><br>
+        <p>All product decisions come from user feedback and multiple customer reviews.</p>
+      </div>
+
+  </div>
+</div>
+</div>
+
+<!-- <div class="container">
+  <div class="case-title">
+    <h2>Design</h2>
+    <img id="image" src="assets/system-case/colour.png" alt="Colour scheme of reebee" style="width:100%; padding-top:30px;">
+
+
+  </div>
+
+    <div class="row" style="padding-top: 30px;">
+      <div class="col-sm-6">
+        <img class="center" src="assets/system-case/androidtypo.png" alt="Android typography guidelines" style="width:100%">
+      </div>
+      <div class="col-sm-6">
+        <img class="center" src="assets/system-case/iostypo.png" alt="iOS typography guidelines" style="width:100%">
+      </div>
+    </div>
+
+    <img id="image" src="assets/system-case/samples.png" alt="Samples of the app's text styles" style="width:100%; padding-top:30px;">
+    <img id="image" src="assets/system-case/boxshadow.png" alt="Samples of the app's text styles" style="width:100%; padding-top:30px;">
+
+</div> -->
 </div>
 
 <div class="container">
-  <div class="case-title">
-    <h2>Goal</h2>
-      <p style="padding-top: 30px;">Emphasize a first time user's understanding of the application's core features through an informative onboarding process to assume greater retention of users.</p>
-    <h2 style="padding-top:5%;">Solution</h2>
-      <p style="padding-top: 30px;">As the sole designer on this product, I researched various onboarding methodologies and best practices to seek direction at the early stages. Much of what I read was centered around bridging the gap between acquiring new users and turning them into highly engaged customers. It's up to you, as the owner of this project, to show the product's best self in 5 steps or less to showcase its core features and introduce value to the product. Ideally, the user sees the product as a solution, and engages directly with the brand. In the end, we approached the problem as a 3-part solution combined into one coherent, seamless onboarding process.</p>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <h2 style="padding-top:20px; font-size: 24px;">1. Full screen walkthrough</h2>
-      <p style="padding-top: 20px;">Q: What are the core features of the application? What do they need to know immediately to assess the benefits of using reebee?</p>
-    <h4 style="padding-top:2%;">CORE FEATURES</h4>
-    <p>To identify the core features of the application, I used a user survey and asked users what features they used most often. Here are the results</p>
-    <img id="image" class="center" src="assets/onboarding-case/core-features-results.png" alt="Survey results of the core features of the app" style="width:80%; padding-top: 4vh;">
-    <div style="padding-top:5vh;" class="row">
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Browsing flyers</p>
-        <p>According to our Firebase data analytics console, 64.7% of daily users use the flyer through opening it from the bookshelf, viewing from a searched item, etc.</p>
-      </div>
-
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Shopping List</p>
-        <p>In the past month, 2.1 million items were added to a user’s shopping list.</p>
-      </div>
-
-      <div class="col-sm-4">
-        <p style="font-weight:bold;">Item Search</p>
-        <p>83% of interviewed users said one of the primary actions they use reebee for is searching for specific items they need.</p>
-      </div>
-
-    </div>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <h2 style="padding-top:20px; font-size: 24px;">2. Tooltips in the app</h2>
-      <p style="padding-top: 20px;">Q: Where are users getting stuck/experiencing a barrier? What are some complex actions in the app?</p>
-
-    <h4 style="padding-top:2%;">IMPORTANT PARTS IN THE APP</h4>
-    <ol>
-      <li>Viewing the details of an item</li>
-      <li>Sharing/exporting a shopping list</li>
-    </ol>
-
-    <div style="padding-top:10px;"><hr class="yellow" align="left" width="5%" height="8px" color="#ffc700"></div>
-    <h2 style="padding-top:20px; font-size: 24px;">3. Empty state screens</h2>
-      <p style="padding-top: 20px;">Q: How can we show our brand personality to new users? How do empty states work to guide users to their next action?</p>
-
-    <h4 style="padding-top:2%;">EMPTY STATES</h4>
-    <ol>
-      <li>Shopping list</li>
-      <li>Favourites list</li>
-      <li>Search results</li>
-      <li>Category</li>
-      <li>Upcoming flyers</li>
-    </ol>
-
-  </div>
-
-
-    <h2 style="padding-top:30px;">Market research</h2>
-    <p style="padding-top: 4vh;">Our main competitors in this space are Flipp and Checkout 51, both of which have established onboarding processes within their applications. To convince my stakeholders to implement one into our app, I analyzed their methods and picked apart the pros/cons of each one and translated the best parts into my final designs. For example, although many studies and testing sessions have shown users tend to skip through in-app walkthroughs, both our competitors use it to their advantage and as a way to reiterate the brand image to users on their first-time user.</p>
-
-    <div class="row" style="padding-top: 30px;">
-      <div class="column market-section">
-        <img id="image" src="assets/onboarding-case/Flipp.png" alt="Flipp competitor analysis" style="width:100%">
-      </div>
-      <div class="column market-section">
-        <img src="assets/onboarding-case/Groupon.png" alt="Groupon competitor analysis" style="width:100%">
-      </div>
-    </div>
-
-</div>
-
-<div class="gray-highlight-section">
-  <div class="highlight-text">
-    <h2>Wireframing</h2>
-    <p style="padding-top:4vh;">In order to make the best decision when it came to the final design, I gave my stakeholders and developers a few samples of possible avenues we could explore in the onboarding process. Firstly, to show them how I approached the design process and secondly, to show them all the options there are when it comes to onboarding to prep them for more onboarding design talks later on.</p>
-    <img class="center" src="assets/onboarding-case/onboarding-wireframe.png" style="padding-top:30px; width: 100%;">
-    <p><br>In the feedback sessions with my stakeholders, I wanted to make sure I would be prepared for the alternative suggestions they made to my design to make sure we weren't wasting time in meetings just talking about other options. So I decided to design these various mockups to demonstrate that I explored different options, and that my recommendation wasn't made without other design solutions in mind. As well, when they suggested other options, having something to show my stakeholders right away to say "Yes, I already tried that" and to have something to show for it speeded up the decision making process much quicker.</p>
-  </div>
-</div>
-
-    <div class="container">
-        <h2>Onboarding in the app</h2>
-        <p style="padding-top:4vh;">For the first design of the full screen walkthrough, I created workflow diagrams to determine where the different screens would appear in the application and sent it to the developers.</p>
-        <h4 style="padding-top:2%;">FULL SCREEN WALKTHROUGH</h4>
-        <p>The full screen walkthrough consists of 5 screens in total. three of these screens are meant to cover the key actions/features of reebee, one for location priming (currently the permission request pops up with no context), and one initial welcome screen. The moment the user signs up for your product/downloads the app, their interest in using it is at an all-time high. To optimize for this, I focused on keeping the complex points (forms, permissions) to post-clicks of the main onboarding process. The whole process can be skipped at any time - but location priming must be read and accepted either through allowing their location or manually entering their postal code before they can continue into the app to make sure it reaches its full functionality.</p>
-        <img class="center" src="assets/onboarding-case/onboarding-workflow.png" style="padding-top:30px; width: 100%;">
-
-        <h4 style="padding-top:2%;">TOOLTIPS</h4>
-        <p>Tooltips were trickier to integrate into the application. Whereas we knew exactly where the full screen walkthrough would go, we had to have several meetings to discuss optimizing the tooltips' appearing at times the user would need to see them. This means taking into consideration 90% of users usually skip popups, the fact that we wanted them to give them some sense of independence in the app and let them discover it on their own, but also showing them the best way to use reebee. </p><p>For example, a main feature of our application is the ability to add items from a flyer directly into a shopping list but after looking at the data, we realized only about 25% of users actually use this feature. Of course, this could be due to personal preference but to target users who simply didn't understand/know about the functionality: How do we place the tooltips in a way that will lightly push this behaviour so users can get the most out of their experience?</p>
-        <p>Additionally, the onboarding process was initially thought to displayed only for first-time users. However, with realizing that only 25% of users were adding flyer items, we contemplated on adding the tooltips in now for existing users who were part of those 75%. Here is the result of those two workflows that I sent over to my customer success manager and the developers on the team to sort out the logic of the process.</p>
-        <img class="center" src="assets/onboarding-case/first-time-workflow.png" alt="Workflow for first time user's tooltips in the app" style="padding-top:5vh; width: 100%;">
-        <img class="center" src="assets/onboarding-case/existing-user-workflow.png" alt="Workflow for existing user's tooltips in the app" style="padding-top:5vh; width: 100%;">
-
-
-    </div>
-
-
-    <div class="gray-highlight-section">
-      <div class="highlight-text">
-        <h2>Initial sketches</h2>
-        <p style="padding-top:4vh;">After meeting with my team about the different designs I wireframed, we chose to start with the full screen designs as an MVP to implement it into the app as soon as possible. Once we decided on the core features of the app, I started on the sketches using Procreate on my iPad. A big part of the project was also identifying reebee's voice and branding to customers and the sort of personality we wanted our brand associated with. Working with the graphic designers, we identified design principles of reebee's brand.</p>
-
-        <img class="center" src="assets/onboarding-case/onboarding-sketches.png" alt="Sketches for onboarding illustrations" style="padding-top:30px; width: 100%;">
-
-        <div class="row" style="padding-top:10%;">
-          <div class="col-sm-4">
-            <p style="font-weight:bold;">Trust with our users</p>
-            <p>Hundreds of thousands of Canadian households rely on reebee to save on their household items. reebee helps these household save thousands of dollars per year and live more organized, productive lifestyles that require an established foundation of trust with our customers.</p>
-          </div>
-          <div class="col-sm-4">
-            <p style="font-weight:bold;">Conversational</p>
-            <p>As our company grows in downloads and size, keeping that personable relationship with our user base becomes more difficult to maintain. We want to ensure that our app feels relaxed and conversational, giving users the impression of a company that values their interests and input.</p>
-          </div>
-          <div class="col-sm-4">
-            <p style="font-weight:bold;">Intuitive and consistent</p>
-            <p>Our user base consists of individuals aged 15-80 - maybe of which occupy the 35+ demographic that have reported frequently their technological limits prevent them from using reebee to its full potential. Keeping this in mind, the solutions we create must be adjustable to their skill level is essential to creating a more inclusive experience.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-      <div class="container">
-        <h2>Copywriting process</h2>
-          <p style="padding-top:4vh;">Copywriting was a very collaborative, important part of the onboarding design process. It needed as much deliberation as the design decisions for the UI. These screens show how I approached thinking through the copy so it’s clear, concise, helpful, and contextual.</p>
-          <p>I created an excel doc and compiled three different versions of the copy - one written by our marketing team, one by our stakeholders, and one by myself and the dev team lead and put them side by side for comparison.</p>
-          <img class="center imageContainer" style="padding-top: 4vh; width: 100%;" src="assets/onboarding-case/copywriting-process.png" alt="Screenshot of onboarding copywriting process on Google sheets">
-
-        <h2 style="padding-top: 10vh;">Engaging users with imagery</h2>
-        <p style="padding-top:4vh;">The use of imagery was a strong component in creating the onboarding screens. According to the biophilia effect, associating text with connections to nature can be very relaxing and engaging to people as they are more trusting and drawn to proper uses of coloring and visuals.</p>
-        <p>Since the goal of the onboarding process is to encourage users to read about our features before entering the application, we wanted to keep users on the onboarding screens interpreting and reading the information as much as possible. I spent some time on Adobe Illustrator creating the illustrations around reebee's branding personality and key reebee blue to breathe more life into the app experience.</p>
-
-        <img class="center imageContainer" src="assets/onboarding-case/onboarding-imagery.png" alt="Illustrations of onboarding visuals" style="width:70%; padding-top: 5vh;">
-
-<div style="padding-top: 10vh;" class="row">
-<div class="col-sm-6">
-          <h2>Final walkthrough design</h2>
-            <p style="padding-top:5vh;">As part of another reebee design project I was working on, I knew the design of the application might be changing drastically so incorporating screenshots/mockups of the current app design in the screens which is a common design practice wouldn't work in the long-run. <br><br>By using imagery that aligns with our consistent reebee branding, I emphasized the scalability of the design to my stakeholders.<br><br>Available now on reebee on iOS and Android.</p>
-</div>
-<div class="col-sm-6">
-            <img class="center" src="assets/onboarding-case/onboardinggif.gif" alt="Implemented onboarding process on iOS" style="width:70%;">
-          </div>
-        </div>
-      </div>
-
-      <div class="gray-highlight-section">
-        <div class="highlight-text">
-        <h2 style="padding-top:5vh;">Final empty state design</h2>
-        <p style="padding-top:5vh;"></p>
-        <img src="assets/onboarding-case/final-empty-state.png" alt="Empty state screen for favourites list" style="width: 80%;" class="center imageContainer">
-
-        <h2 style="padding-top:5vh;">Final tooltip design</h2>
-        <div style="padding-top:5vh;" class="row">
-          <div class="col-sm-6 center">
-        <img src="assets/onboarding-case/tooltip1.gif" alt="Tooltip about tapping the flyer animation" style="width: 80%;" class="center imageContainer">
-      </div>
-      <div class="col-sm-6 center">
-    <img src="assets/onboarding-case/tooltip2.gif" alt="Tooltip about the long press to add an item animation" style="width: 80%;" class="center imageContainer">
-  </div>
-
-    </div>
-  </div>
-</div>
-
-  <div class="container">
-    <h2>Current progress</h2>
-    <p style="padding-top:5vh;">The first part of this project, the full screen walkthrough, is implemented on iOS and Android in August 2019 and is currently live on the reebee application, available in the <a href="https://apps.apple.com/ca/app/reebee-save-money-with-flyers/id558297215">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.reebee.reebee&hl=en_CA">Google Play</a>. The tooltips and empty state screens and is expected to be complete by the end of September 2019. A few final things we are ironing out are ensuring it follows iOS and Android interface guidelines for their respective platforms, which has been an ongoing challenge for me during this work term.</p>
-
-    <h4 style="padding-top:2%;">KEY PERFORMANCE INDICATORS</h4>
-      <div class="row">
-        <div class="col-sm-3">
-
-          <p style="font-weight:bold;">App Store and Google Play reviews</p>
-          <p>The app currently has over 30,000 Google Play reviews, which has commonly sped up whenever we introduce a new feature.</p>
-        </div>
-
-        <div class="col-sm-3">
-          <p style="font-weight:bold;">Duration spent on each onboarding screen</p>
-          <p>By measuring the time spent on each of the 5 screens introduced in the full walkthrough, we can assess whether users are reading the copy or skipping through it immediately, and then seeing if the user who spend more time on the screens tend to return after 30 days.</p>
-        </div>
-
-        <div class="col-sm-3">
-          <p style="font-weight:bold;">Allow vs Don't allow location access probability</p>
-          <p>With location priming introduced in the onboarding process, our stakeholders wanted to see if this affected the number of people who were willing to allow for their location to be accessed by their devices.</p>
-        </div>
-
-        <div class="col-sm-3">
-          <p style="font-weight:bold;">Retention of users after 30 days</p>
-          <p>Our original benchmark, taken from the Firebase console's data, is about 12% for Android users.</p>
-        </div>
-
-      </div>
-    <img class="center" src="assets/onboarding-case/onboarding-implement.jpg" alt="Implementation of my reebee onboarding design" style="width:70%; padding-top: 4vh;">
-  </div>
-
-  <div class="container">
-    <h2>Future additions</h2>
-    <p style="padding-top: 4vh;">In the future, we plan to do more user testing to identify more pain points the user is experiencing and implementing suggestive tooltips that can help them get the most out of reebee faster. We'd also like to create a design system standard for notifications and tooltips within the app for onboarding and to introduce new features to our existing users.</p>
+  <p>The rest of this project is protected content that could not be available publicly. If you'd like to chat about the rest, feel free to contact me at <a href="mailto:judyzhong99@hotmail.com">judyzhong99@hotmail.com</a></p>
 
 </div>
 
   <div class="bottom-button" style="text-align: center;" id="wrapper">
-    <a class="nav-link" href="rideshare.html" style="font-size:24px; margin: 0 auto; padding-bottom: 10vh;">
+    <a class="nav-link" href="onboarding.html" style="font-size:24px; margin: 0 auto; padding-bottom: 10vh;">
       <button class="arrow">next project</button>
     </a>
   </div>
@@ -493,9 +303,6 @@
 
           <p class="footer-company-name">Designed and developed with 💛  &copy; Judy Zhong 2019</p>
         </footer>
-
-
-
 
 
 

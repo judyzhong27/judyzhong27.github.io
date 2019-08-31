@@ -48,6 +48,10 @@
 #rideshare-bg {
   background-image: url("assets/rideshare-case/rideshare-home.png");
 }
+
+#system-bg {
+  background-image: url("assets/system-case/waffle-home.png");
+}
 /* Nav bar styling */
 .nav-item {
   margin: 0 auto;
