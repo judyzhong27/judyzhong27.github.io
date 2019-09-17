@@ -661,9 +661,9 @@ button {
 }
 
 /* Image getting bigger */
-#image {
+/* #image {
     width: 100%;
 }
 #image:active {
     transform: scale(1.5);
-}
+} */
