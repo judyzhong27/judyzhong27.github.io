@@ -63,7 +63,7 @@
 
 .navbar{
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   /* margin-top: 40px; */
   overflow: hidden;
   padding-top: 20px;
@@ -258,7 +258,7 @@ h3 {
 
 .container {
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   /* margin-top: 5%;
   margin-bottom: -5%; */
   padding-top: 7%;
@@ -328,9 +328,8 @@ p.container {
   font-family: 'Heebo', sans-serif;
   box-sizing: inherit;
   display: block;
-  padding-left: 14%;
-  padding-right: 14%;
-
+padding-left: 16%;
+padding-right: 16%;
 }
 
 .js-fade-slide-entry {
@@ -347,7 +346,7 @@ p.container {
 
 h2 {
   margin: 0;
-  color: black;
+  color: #1E1E1E;
   font-family: 'DM Sans', sans-serif;
   font-size: 32px;
   text-align: left;
@@ -410,6 +409,7 @@ ul li::before {
       line-height: 5vh;
       padding-top: 4vh;
       font-weight: 600;
+      color: #1E1E1E;
     }
 
   p.home-page-subheading {
@@ -419,10 +419,12 @@ ul li::before {
   h2 {
     font-size: 28px;
     padding-top: 2vh;
+    color: #1E1E1E;
   }
 
   p {
     font-size: 14px;
+    color: #1E1E1E;
   }
 
   h4 {

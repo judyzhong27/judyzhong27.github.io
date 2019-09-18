@@ -25,7 +25,6 @@
 h2 {
   font-size: 16px;
   font-weight: 700;
-  line-height: 40px;
 }
 
 .project-container-left {
@@ -49,6 +48,7 @@ body, html {
 
 body {
   font-family: 'DM Sans', sans-serif;
+  color: #1E1E1E;
 }
 
 .full-bg-img {
@@ -85,11 +85,11 @@ h1.page-title {
   font-family: 'DM Sans', sans-serif;
   text-align: left;
   padding-top: 30px;
-  color: #2A2A2A;
+  color: #1E1E1E;
 }
 
 h1.section-title {
-  color: #FAC933;
+  color: #1E1E1E;
   font-weight: 700;
   font-size: 40px;
   font-family: 'DM Sans', sans-serif;
@@ -101,6 +101,7 @@ p.home-page-subheading {
   font-size: 20px;
   display: block;
   padding-top: 4vh;
+  color: #1E1E1E;
   /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -113,6 +114,7 @@ p.home-subtitle {
   font-family: 'DM Sans', sans-serif;
   line-height: 4vh;
   font-weight: 400;
+  color: #1E1E1E;
 }
 
 h2 {
@@ -120,6 +122,7 @@ h2 {
   font-weight: 700;
   line-height: 7vh;
   font-family: 'DM Sans', sans-serif;
+  color: #1E1E1E;
 }
 
 .row {
@@ -132,6 +135,7 @@ p.home-subtitle {
   font-family: 'DM Sans', sans-serif;
   line-height: 4vh;
   font-weight: 400;
+  color: #1E1E1E;
 }
 
 p {
@@ -140,6 +144,7 @@ p {
   /* padding-bottom: 20px; */
   font-family: 'Heebo', sans-serif;
   line-height: 4vh;
+  color: #1E1E1E;
 }
 
 .div {
@@ -164,6 +169,7 @@ p {
 p.a {
   word-wrap: break-word;
   width: 50%;
+  color: #1E1E1E;
 }
 
 a {
