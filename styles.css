@@ -1,16 +1,26 @@
+html {
+  font-family: 'Karla', sans-serif;
+  overflow: hidden;
+}
+
+/* Case study title */
 h1 {
   font-size: 30px;
-  font-family: 'Karla', sans-serif;
   font-weight: bold;
   margin-top: 20%;
+  font-family: 'Karla', sans-serif;
+}
+
+h2 {
+
 }
 
 h4 {
-  font-family: 'Karla', sans-serif;
   margin-top: 10%;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
+  font-family: 'Karla', sans-serif;
 }
 
 button {
@@ -32,8 +42,4 @@ a {
 a:hover {
   color: #000000;
   text-decoration: none;
-}
-
-html {
-  overflow: hidden;
 }
