@@ -1,13 +1,53 @@
 body {
   font-family: 'Karla', sans-serif;
   overflow-x: hidden;
+	margin: 0 auto !important;
+	float: none !important;
 }
 
-/* Project bg images */
-.project-bg-img {
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #D1D1D1;
+  text-align: right;
+  padding: 30px 40px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+img.image {
+  margin: 0 auto !important;
+  max-width: 700px;
+  margin-top: 10%;
+}
+
+.header-body {
+  max-width: 1150px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+img.arrow {
+  max-width: 5px;
+}
+
+.content-body {
+  max-width: 700px;
+  margin: 0 auto !important;
+  float: none !important;
 }
 
 /* The progress bar (scroll indicator) */
@@ -17,39 +57,53 @@ body {
   width: 0%;
 }
 
+.gray-highlight-section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #F8F8F8;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 #onboarding-bg {
-  background-image: url("assets/onboarding-case2/onboardingbg.png");
+  background-image: url("assets/onboarding-case2/main-image.png");
 }
 
 /* TEXT STYLES */
 /* Case study main title */
 h1 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Playfair Display';
   font-size: 50px;
   font-weight: bold;
-  margin-top: 5%;
 }
 
 /* Left heading and numbers */
 h2 {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 58px;
+  font-size: 28px;
+  line-height: 30px;
+  font-family: 'Playfair Display';
+  margin-bottom: 5%;
 }
 
 h2.case-content {
   font-size: 30px;
+  margin-top: 5%;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 50px;
   font-weight: 700;
+  line-height: 55px;
+  margin-top: 15%;
 }
 
 /* Subheadings */
 h4 {
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 40px;
 }
 
 h4.case-content {
@@ -57,21 +111,26 @@ h4.case-content {
   margin-bottom: 5%;
 }
 
-/* Capitals mini title */
 h5 {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 15%;
+}
+
+h5.case-content {
+  margin-top:0%;
 }
 
 /* Regular text */
 h6 {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 22px;
+  margin-top: 5%;
 }
 
 h6.case-content {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 button {
@@ -91,14 +150,13 @@ a {
 }
 
 img {
-  width: 120%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  width: 100%;
+  height: auto;
 }
 
-.case-title {
-  margin-bottom: 50%;
-  margin-top: 100%;
+#mainimage
+{
+  margin-bottom: 6%;
 }
 
 .case-content {
