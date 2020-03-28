@@ -5,24 +5,31 @@ html {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
-  color: #000;
+  color: #fff;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
   text-decoration: none;
   font-size: 16px;
+  font-family: 'Karla', sans-serif;
 }
 
 body {
-  /* The image used */
+  background-color: #1C202B;
+  float: none !important;
+  overflow-x: hidden;
+}
+
+.bg {
+/* The image used */
 background-image: url("assets/bg.png");
 
 /* Full height */
-height: 100%; */
+height: 100%;
 
 /* Center and scale the image nicely */
-background-position: center;
+background-position:center;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -40,6 +47,7 @@ background-size: cover;
   background-color: transparent;
   overflow: hidden;
   text-align: center;
+  padding-top: 50px;
   width: 90%;
   margin: 0 auto;
   align-items: center;
@@ -47,12 +55,110 @@ background-size: cover;
 
 /* Case study title */
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-family: 'Abril Fatface', cursive;
-  text-align: left;
-  letter-spacing: 8px;
-  color: #F58F00;
+  text-align: center;
+  color: #fff;
   margin-top: 25px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer a {
+  display:inline-block;
+  width:60px;
+}
+
+
+.projects a {
+  color: #F58F00;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+
+button {
+  padding-top: 30px;
+  display: inline-block;
+    border: 2px solid white;
+    padding: 1rem 3rem;
+    margin: 0;
+    text-decoration: none;
+    background: #fff;
+    color: #1C202B;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: crosshair;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover,
+button:focus {
+    background: #1C202B;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.tags {
+  color: #D1D1D1;
+  padding: 0px;
+}
+
+footer {
+  height: 150px;
+}
+/* .projects
+button:focus {
+    outline: 2px solid #F58F00;
+    /* outline-offset: -4px; */
+
+
+/* .projects
+button:active {
+    transform: scale(0.99);
+} */
+
+.projects img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#featured {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#tedx {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 .center {
@@ -71,21 +177,24 @@ h1 {
   vertical-align: middle;
 }
 
-.hello {
-  width: 130px;
-  align: left;
-}
-
 h4 {
-  margin-top: 40px;
-  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
   font-family: 'Karla', sans-serif;
-  text-align: left;
+  text-align: center;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .container {
+  position: relative;
+  height: 800px;
+}
+
+.landing {
   position: relative;
   width: 100%;
 }
@@ -133,9 +242,9 @@ a:hover {
 }
 
 a.top {
-  text-decoration: none;
-  color: #000;
+  /* text-decoration: none;
+  color: #fff;
   font-family: 'Karla', sans-serif;
-  font-weight: 600;
+  font-weight: 600; */
 
 }

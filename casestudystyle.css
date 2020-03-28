@@ -15,6 +15,43 @@
   background-color: #DEDEDE;
 }
 
+.topnav a {
+  float: center;
+  color: #000;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+a.top {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+}
+
+.logocenter {
+  /* display: block; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110px;
+  vertical-align: middle;
+}
+
+
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
@@ -279,18 +316,6 @@ h3 {
   margin-bottom: -5%; */
   padding-top: 6%;
   padding-bottom: 6%;
-}
-
-p.home-page-subheading {
-  font-size: 16px;
-  display: block;
-  text-align: center;
-  padding-top: 4vh;
-  font-family: 'Heebo', sans-serif;
-  /* margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px; */
 }
 
 h1.case-title {
