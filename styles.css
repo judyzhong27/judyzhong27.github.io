@@ -21,6 +21,10 @@ body {
   overflow-x: hidden;
 }
 
+.about {
+  padding-top: 70px;
+}
+
 .bg {
 /* The image used */
 background-image: url("assets/bg.png");
@@ -55,8 +59,9 @@ background-size: cover;
 
 /* Case study title */
 h1 {
-  font-size: 60px;
-  font-family: 'Abril Fatface', cursive;
+  font-size: 65px;
+  line-height: 70px;
+  font-family: 'Rozha One', serif;
   text-align: center;
   color: #fff;
   margin-top: 25px;
@@ -64,10 +69,20 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Rozha One', serif;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
 }
 
 footer {
@@ -90,14 +105,12 @@ footer a {
 }
 
 button {
-  padding-top: 30px;
   display: inline-block;
     border: 2px solid white;
     padding: 1rem 3rem;
-    margin: 0;
     text-decoration: none;
-    background: #fff;
-    color: #1C202B;
+    background: #1C202B;
+    color: #fff;
     font-family: 'Karla', sans-serif;
     font-size: 18px;
     border-radius: 6px;
@@ -113,8 +126,8 @@ button {
 
 button:hover,
 button:focus {
-    background: #1C202B;
-    color: #fff;
+    background: #fff;
+    color: #1C202B;
     border: 2px solid #fff;
 }
 
@@ -124,7 +137,7 @@ button:focus {
 }
 
 footer {
-  height: 150px;
+  height: 120px;
 }
 /* .projects
 button:focus {
@@ -185,7 +198,7 @@ h4 {
   font-family: 'Karla', sans-serif;
   text-align: center;
   color: #fff;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
