@@ -179,11 +179,30 @@ h6.case-content {
 }
 
 button {
-  margin-top: 20%;
-  border: none;
-  text-decoration: none;
-  font-size:18px;
-  padding: 0;
+  display: inline-block;
+    border: 2px solid #1C202B;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    background: #fff;
+    color: #1C202B;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: crosshair;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover,
+button:focus {
+    background: #1C202B;
+    color: #fff;
+    border: 2px solid #1C202B;
 }
 
 a {
@@ -251,4 +270,17 @@ margin-bottom: 6%;
 .container {
   position: relative;
   height: 800px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+footer a {
+  display:inline-block;
+  width:60px;
+  padding-bottom: 100px;
 }

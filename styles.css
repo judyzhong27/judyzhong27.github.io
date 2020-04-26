@@ -141,16 +141,6 @@ button:focus {
 footer {
   height: 120px;
 }
-/* .projects
-button:focus {
-    outline: 2px solid #F58F00;
-    /* outline-offset: -4px; */
-
-
-/* .projects
-button:active {
-    transform: scale(0.99);
-} */
 
 .projects img {
   width: 100%;
