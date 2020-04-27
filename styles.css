@@ -85,6 +85,14 @@ h3 {
   margin-top: 100px;
 }
 
+h6 {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 20px;
+  line-height: 22px;
+}
 footer {
   display: block;
   text-align: center;
@@ -94,8 +102,9 @@ footer {
 
 footer a {
   display:inline-block;
-  width:60px;
-  padding-bottom: 100px;
+  width:50px;
+  margin-bottom: 100px;
+  padding: 5px;
 }
 
 
@@ -208,48 +217,13 @@ h4 {
   margin-top: 90px;
 }
 
-/* Underline From Left */
-/* .hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-  -webkit-box-align: center;
-  align-items: center;
-} */
-
-/* .hvr-underline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 20%;
-  right: 80%;
-  bottom: 0;
-  background: #F58F00;
-  height: 5px;
-  -webkit-box-align: center;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-} */
-/* .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
-  right: 0;
-} */
-
-a:hover {
-  /* color: black; */
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
 }
 
-a.top {
-  /* text-decoration: none;
-  color: #fff;
-  font-family: 'Karla', sans-serif;
-  font-weight: 600; */
-
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
