@@ -267,6 +267,21 @@ margin-bottom: 6%;
 
 }
 
+.sunday-bg {
+/* The image used */
+background-image: url("assets/sunday-case/sunday-image.png");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 6%;
+
+}
+
 .container {
   position: relative;
   height: 800px;
@@ -289,4 +304,41 @@ footer a {
 .column {
   flex: 33%;
   padding: 0 70px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column-final {
+  float: left;
+  padding: 30px;
+}
+
+.final-body2 {
+  max-width: 80%;
+  margin: 0 auto !important;
+}
+
+.final-body {
+  max-width: 60%;
+  margin: 0 auto !important;
+}
+
+.left {
+  width: 65%;
+}
+
+.right {
+  width: 35%;
+}
+
+h2.column-final {
+  margin-top: 20%;
+}
+
+.map {
+  max-width: 70%;
+  margin: 0 auto !important;
+  float: none !important;
+  display: block;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
