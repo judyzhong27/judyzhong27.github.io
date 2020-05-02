@@ -118,7 +118,7 @@ img.arrow {
 /* TEXT STYLES */
 /* Case study main title */
 h1 {
-  font-family: 'Playfair Display';
+  font-family: 'DM Serif Display';
   font-size: 50px;
   font-weight: bold;
 }
@@ -128,7 +128,7 @@ h2 {
   font-weight: 700;
   font-size: 28px;
   line-height: 30px;
-  font-family: 'Playfair Display';
+  font-family: 'DM Serif Display';
   margin-bottom: 5%;
 }
 
@@ -330,7 +330,7 @@ hr {
 }
 
 footer h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 36px;
   color: #fff;
 }
