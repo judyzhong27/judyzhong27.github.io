@@ -119,13 +119,17 @@ img.arrow {
 /* Case study main title */
 h1 {
   font-family: 'DM Serif Display';
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+  padding-top: 20px;
+  line-height: 60px;
 }
 
 /* Left heading and numbers */
 h2 {
-  font-weight: 700;
+  font-weight: normal;
   font-size: 28px;
   line-height: 30px;
   font-family: 'DM Serif Display';
@@ -169,14 +173,18 @@ h5.case-content {
 
 /* Regular text */
 h6 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 26px;
   margin-top: 5%;
 }
 
 h6.case-content {
   margin-top: 10%;
+}
+
+h6.container {
+  padding-top: 50%;
 }
 
 button {
@@ -261,6 +269,21 @@ margin-bottom: 6%;
 .redesign-bg {
 /* The image used */
 background-image: url("assets/homeredesign-case/mainimage.png");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 6%;
+
+}
+
+.duo-bg {
+/* The image used */
+background-image: url("assets/news-case/news-mainimage.jpg");
 
 /* Full height */
 height: 100%;
