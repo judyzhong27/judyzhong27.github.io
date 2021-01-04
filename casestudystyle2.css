@@ -170,6 +170,11 @@ h4.case-content {
   margin-bottom: 5%;
 }
 
+h4.subtitle {
+  font-weight:700;
+  padding-bottom:0;
+}
+
 h5 {
   font-size: 20px;
   line-height: 28px;
@@ -184,6 +189,11 @@ h5.value {
 
 h5.case-content {
   margin-top:0%;
+}
+
+h5.subtitle {
+  margin-top:5%;
+  font-weight: 700;
 }
 
 /* Regular text */
@@ -231,7 +241,7 @@ button:focus {
 
 a {
   text-decoration: none;
-  color: #C7C7C7;
+  color: #24A6FF;
   font-family: 'Karla', sans-serif;
   font-weight: 700;
 
@@ -407,6 +417,17 @@ footer img {
 .column-final {
   float: left;
   padding: 30px;
+}
+
+/* Interactions and features column style */
+.news-row {
+  max-width: 85%;
+  margin: 0 auto !important;
+}
+
+.news-row-right {
+  max-width: 70%;
+  margin: 0 auto !important;
 }
 
 .final-body2 {

@@ -101,6 +101,7 @@ Microsoft News is a long-existing brand within Microsoft and we had to adhere to
     </div>
   </div>
 
+
     <h2 style="margin-top: 10%;">Impact</h2>
     <h6>Shipped and available exclusively on Microsoft's Surface Duo device. Check out this <a href="https://devblogs.microsoft.com/surface-duo/enhance-microsoft-news-dual-screen/">article</a> for our final product.</h6>
   </div>
@@ -131,6 +132,9 @@ Microsoft News is a long-existing brand within Microsoft and we had to adhere to
 </ul>
     </div>
 
+    <h6 style="text-align: center;">The Microsoft News team on the project</h6>
+    <img class="image" src="assets/news-case/teampic.jpg">
+
   <div class="gray-highlight-section">
     <div class="content-body">
       <h2>Principles of dual-screen design</h2>
@@ -155,294 +159,183 @@ Microsoft News is a long-existing brand within Microsoft and we had to adhere to
   </div>
   </div>
 
-  <div class="row">
-    <!-- <div class="col-sm-1"></div> -->
-    <div class="column-final left">
-      <img src="assets/news-case/newsfeedmock.png" alt="Surface Duo newsfeed mockup">
-    </div>
-    <!-- <div class="col-sm-1"></div> -->
-    <div class="column-final right">
-      <h1 style="margin-top: 200px;">Newsfeed</h1>
-      <h6>The newsfeed is a high visibility feature of Microsoft News, offering a simple, stress free browsing experience. Readers use it as a starting point in our app to navigate further between features and explore the flow.</h6>
-    </div>
-  </div>
-
-    <!-- <h6>I met with my stakeholders, Reebee co-founders Tobiasz and Michael, to learn which teams were involved in the project, the existing revenue streams for the business, and the metrics of success.</h6>
-
-    <h4><b>User Interviews</b></h4>
-    <img class="image" src="assets/homeredesign-case/userinterview.png">
-    <h6>As part of my discovery, I interviewed users who were using Reebee for the first time, those who used Reebee once a week, and those who used Reebee multiple times a week and asked for their impression of the previous home screen design.</h6>
-
-    <h4><b>Sales Team Interviews</b></h4>
-    <h6>Lastly, I also spoke with our sales team to identify problem areas or places for improvement our retailers have targeted and the features they’d like to see in our app to identify where I could design for both business and user.<br><br>
-      Since we primarily display the content of our retailers in our app, our sales team was the best source to understand the retailer’s perspective. This was a good starting point to exploring how we could use screen estate to exhibit their weekly content.
-
-    <img class="image" src="assets/homeredesign-case/sales.png">
-    </h6>
-
-    <h2 style="margin-top: 10%;">Feedback</h2>
-  </div>
-
   <div class="content-body">
+    <h2>Evolving from my single screen process and mindset</h2>
+    <h6>As the sole designer on the project, I made a lot of mistakes when it came to navigating this landscape. The external resources on dual screen design were scarce, and the Surface Duo's behaviour and research was a black box under strict privacy concerns for this new product.</h6>
+    <h6>Here are some of the process adaptations I had to make to fit the unique nature of this project</h6>
+    <ol>
+      <li style="padding-top:10px;">Frequency of collaboration with developers
+      <li style="padding-top:10px;">Style of deliverables
+      <li style="padding-top:10px;">Testing with users
+    </ol>
 
-    <img class="image" style="width: 60%; margin-top: 10%;" src="assets/homeredesign-case/affinity.png">
-    <h2 style="margin-top: 10%;">Final strategy</h2>
-    <h6>As our app grows in content and consumers are overloaded with choices, the ability to find and access the right content people want to read becomes farther. To reduce that time to goal, I based my strategy on redesigning the home screen to deliver with the following key elements.</h6>
 
+        <h5 class="subtitle"><b>Frequency of developer collaboration</b></h5>
+        <div class="row">
+          <div class="col-sm-6">
+        <h6><i>Specific to project</i><br><br>The developers and designers <span style="background-color: #C1EBEE">worked synchronously</span> for this project. We were all exploring this uncharted territory together, so I <span style="background-color: #C1EBEE">leaned on them to validate my initial assumptions</span> as "users" as we began to define mental models of dual screen usage.</h6>
+      </div>
+      <div class="col-sm-6">
+        <h6><i>My approach</i><br><br>Ran 2 weekly meetings with the developers to</h6>
+        <ul>
+          <li>talk through my assumptions
+          <li>explain complex interaction diagrams
+          <li>discuss technical feasibilities as they learned about them
+          <li>review next steps in the design process
+        </ul>
 
-  </div>
+      </div>
+    </div>
 
-  <div class="insights-highlight-section" style="padding-top: 0;">
+    <h6 style="text-align: center;">Posted project work I reviewed with my team</h6>
+    <img class="image" src="assets/news-case/diagram.jpg">
+
+      <h5 class="subtitle"><b>Style of deliverables</b></h5>
+      <div class="row">
+        <div class="col-sm-6">
+      <h6><i>Specific to project</i><br><br>In comparison to my previous work, thinking through the right interactions and journeys with the second screen was quite literally <span style="background-color: #C1EBEE">double the complexity</span>.<br><br>Below is an image of the 4 available device orientations on Surface Duo. Each deliverable and screen I designed had to <span style="background-color: #C1EBEE">consider each mode</span>:</h6>
+      <ul>
+        <li>Single portrait
+        <li>Single landscape
+        <li>Dual portrait
+        <li>Dual landscape
+      </ul>
+
+      </div>
+
+      <div class="col-sm-6">
+        <h6><i>My approach</i><br><br>Each app experience I researched began with detailed flow diagrams I could use to illustrate how the user moves between the 4 modes, which preceded any visuals or designs.<br><br>Our team wanted to solidify through testing the interactions of the app before I filled in the details. Then they were handed off in conjunction with the interaction diagrams for implementation (which can be seen later).</h6>
+      </div>
+
+    </div>
+    <h6 style="text-align: center;">Surface Duo device orientations</h6>
+    <img class="image" src="assets/news-case/duoorientation.png">
+
+    <h6>My starting point into dual screen design was defining Spanned mode's default; <span style="background-color: #C1EBEE">what happens initially when a user spans the app on both screens?</span></h6>
+    <h6>Our goal was to deliver a seamless experience that demonstrated coherency between the screens, which needed to be
+    incorporated into each Microsoft News experience as it would be the user's first touchpoint with dual screen technology, and we really wanted to nail it.</h6>
+    <img class="image" src="assets/news-case/interaction.png">
+
+    <h5 class="subtitle"><b>Testing with users</b></h5>
     <div class="row">
-
-      <div class="column">
-        <h6><b>MODERN DESIGN</b></h6>
-        <h6>Paying extra attention to our visuals with a redesign of the UI for the aesthetic-usability effect that highlights and emphasizes our content with less noise</h6>
-      </div>
-      <div class="column">
-        <h6><b>CATEGORY VISIBILITY</b></h6>
-        <h6>Improving the accessibility of our categories help our readers to filter down all the content and get closer to what they're looking for</h6>
-        <h6>
-      </div>
-      <div class="column">
-        <h6><b>FEATURED SECTION</b></h6>
-        <h6>Delivering on that content discoverability by dedicating a section of the home screen for users who have no direction coming into the app</h6>
-      </div>
-    </div>
+      <div class="col-sm-6">
+    <h6><i>Specific to project</i><br><br>Our team worked on the Surface Duo prior to its public release date, so we <span style="background-color: #C1EBEE">couldn't test on non-employees</span> and were <span style="background-color: #C1EBEE">limited to the number of devices</span> we could access. <br><br>The <span style="background-color: #C1EBEE">software functions and front-end gestures of the Surface Duo weren't communicated to us</span> due to privacy concerns and for the first few weeks of the project, none of us had never even used a dual screen device!</h6>
   </div>
 
+  <div class="col-sm-6">
+    <h6><i>My approach</i><br><br>Paper prototypes were used to simulate the device's experience. We got the measurements and cut out copies of the "Surface Duo", sketching and pasting our screen designs to show our users.<br></h6>
+    <h6>In conjunction with some Figma prototypes, we were able to test several different assumptions around mental models in the beginning stages of our project. Thankfully we ended up getting some real devices!</h6>
+  </div>
 
-    <div class="gray-highlight-section">
-      <div class="content-body">
-        <h2>Key performance indicators (KPIs)</h2>
-        <div style="margin-top:5%;" class="row">
-          <div class="arrow col-sm-1">
-            <img src="assets/onboarding-case2/arrow.png">
-          </div>
-          <div class="col-sm-11">
-            <h6 style="margin-top:0;"><b>Number of flyers accessed from featured section vs. other parts</b></h6>
-            <h6 style="margin-top: 5px;">Evaluating whether the featured section engages users to click through to view more flyers</h6>
-          </div>
-        </div>
-
-        <div style="margin-top:5%;" class="row">
-          <div class="arrow col-sm-1">
-            <img src="assets/onboarding-case2/arrow.png">
-          </div>
-          <div class="col-sm-11">
-            <h6 style="margin-top:0;"><b>Flyer views per session</b></h6>
-            <h6 style="margin-top: 5px;">Number of opened flyers</h6>
-
-          </div>
-        </div>
-
-        <div style="margin-top:5%;" class="row">
-          <div class="arrow col-sm-1">
-            <img src="assets/onboarding-case2/arrow.png">
-          </div>
-          <div class="col-sm-11">
-            <h6 style="margin-top:0;"><b>Category usage</b></h6>
-            <h6 style="margin-top: 5px;">12 categories present on the screen, and currently 14% of MAU use them</h6>
-          </div>
-        </div>
-
-        <div style="margin-top:5%;" class="row">
-          <div class="arrow col-sm-1">
-            <img src="assets/onboarding-case2/arrow.png">
-          </div>
-          <div class="col-sm-11">
-            <h6 style="margin-top:0;"><b>App rating</b></h6>
-            <h6 style="margin-top: 5px;">Currently at 4.7</h6>
-          </div>
-        </div>
-
-      </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="assets/news-case/paperduo.jpg" alt="Paper prototype of Surface Duo">
     </div>
-
-    <div class="insights-highlight-section">
-        <div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-4">
-            <h2>A new home screen design</h2>
-            <h4>Research Insights</h4>
-            <h6><b>WHAT</b></h6>
-            <h6>
-  The previous home screen design was <b>underwhelming</b> and <b>offered no sense of hierarchy</b> for flyers to our users. Users expect the home screen to be designed for discovering new content, and browsing aimlessly without much cognitive load.<br><br>Our stakeholders wanted to transition to be more brand-focused rather than flyer-focused if we wanted to <b>distinguish ourselves from competitors</b>.<br><br>
-  In our market research, our previous design lacked the <b>modern styles of newer apps</b>.
-</h6>
-
-  <h6><b>HOW</b></h6>
-  <h6>Redesign the app, starting with the home screen, to give a more modern look that reduces distractions and aims to give more guidance to next steps.</h6>
-
-  <h6><b>WHY</b></h6>
-  <h6><i>For the business</i><br>
-  Increases user engagement and be more competitive<br><br>
-
-  <i>For the user</i><br>
-  Delivers the same intuitive navigational patterns,but  minimizes interruptions that comes with cluttered UI components</h6>
-          </div>
-          <div class="col-sm-4">
-            <img class="image" src="assets/homeredesign-case/previoushomescreen.png">
-          </div>
-          <div class="col-sm-2"></div>
-        </div>
+    <div class="col-sm-6">
+      <img src="assets/news-case/testingduo.jpg" alt="Testing with users a paper prototype of Surface Duo">
     </div>
-
-    <div class="gray-highlight-section">
-      <div class="content-body">
-        <h4>Moving away from skeuomorphism</h4>
-        <img class="image" src="assets/homeredesign-case/bookshelf.png">
-
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-sm-4">
-            <h6><b>Removed shelf style</b></h6>
-            <h6>This aimed to give a more scannable, less cluttered, appearance. The bookshelf of Reebee is intended for browsing and reducing noise as much as possible was key.</h6>
-          </div>
-          <div class="col-sm-4">
-            <h6><b>Changed the grey background to white</b></h6>
-            <h6>White allowed us to introduce more prominent shadows and really highlight the content our users came for: the flyers. The white background accentuated the flyer which is catered for both user and retailer.</h6>
-          </div>
-          <div class="col-sm-4">
-            <h6><b>Increased flyer size and added shadows</b></h6>
-            <h6>In our user feedback, the flyers were too small to identify anything tangible for users. We increased the size to encourage to dive deeper into flyers by giving them a sneak peek.</h6>
-          </div>
-        </div>
-
-        <h4>Out with the blue, in with the new</h4>
-        <img class="image" src="assets/homeredesign-case/header.png">
-
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-sm-4">
-            <h6><b>Larger titles</b></h6>
-            <h6>To keep users aware of their place in the flow, we said out with the old and in with new, larger, bolded titles on each app screen.</h6>
-          </div>
-          <div class="col-sm-4">
-            <h6><b>Rounding out the tabs</b></h6>
-            <h6>Reebee is a family-friendly app and we wanted to reflect that through slight UI modifications. <br><br>We fully rounded out the tab navigation between current and upcoming flyers to achieve that softer look.</h6>
-          </div>
-          <div class="col-sm-4">
-            <h6><b>Removed blue header</b></h6>
-            <h6>We opted to remove the entirely blue header for a cleaner UI. To continue to showcase our brand, we developed an <a href="onboarding.html">onboarding process</a> to emphasize our voice</h6>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-
-    <div class="insights-highlight-section">
-        <div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-4">
-            <h2>Improving the categories</h2>
-            <h4>Research Insights</h4>
-            <h6><b>WHAT</b></h6>
-            <h6>Categories enable users to filter the flyers by home, favourites, electronics, tools, grocery, heatlh, fashion, etc. With over 200 flyers, it is a quick way to personalize it to the content you want to view.<br><br>
-
-              Users: “I browse often but don’t look at most categories.”<br><br>
-
-“I just go directly to my favourites.”<br><br>
-
-2/6 of interviewed users use categories<br><br>
-
-23% of users use categories on iOS</h6>
-
-  <h6><b>HOW</b></h6>
-  <h6>Increasing visibility of category selection on the home screen to filter content.</h6>
-
-  <h6><b>WHY</b></h6>
-  <h6>Reduces information overload by providing options to filter down the flyers to be more manageable. Currently, the categories are hidden behind a white arrow with minimal affordance.<br><br>
-</h6>
-          </div>
-          <div class="col-sm-4">
-            <img class="image" src="assets/homeredesign-case/previouscategory.png" alt="Old design of category placement">
-          </div>
-          <div class="col-sm-2"></div>
-        </div>
-    </div>
-
-    <div class="gray-highlight-section">
-      <div class="content-body">
-      <h4>Wireframes</h4>
-      <img class="image" src="assets/homeredesign-case/categorywireframe.png" alt="Wireframes of category design">
-      <h6>I browsed other apps’ approach to presenting options to users - some of which were meant for filtering and other than aimed to show a lot of content at once.</h6>
-      <img class="image" src="assets/homeredesign-case/category.png">
-
-      <div class="row" style="margin-top: 30px;">
-        <div class="col-sm-6">
-          <h6><b>More prominent access point</b></h6>
-          <h6>In the previous design, the categories weren’t recognized by most users leading to less application. We shifted the categories from the unrelated white arrow to have its own button and icon.</h6>
-        </div>
-        <div class="col-sm-6">
-          <h6><b>Category dropdown</b></h6>
-          <h6>Instead of navigating to another screen, the categories drop down on the same screen as the flyers so users can live filter the bookshelf and receive immediate feedback</h6>
-        </div>
-      </div>
-    </div>
-    </div>
-
-    <div class="content-body">
-      <h4 style="margin-bottom:0;">Exploration and Iteration</h4>
-    </div>
-    <img src="assets/homeredesign-case/categoryiterations.png">
-      <img src="assets/homeredesign-case/finalhomescreen.png">
-
-      <div class="insights-highlight-section">
-          <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
-              <h2>Introducing the featured section</h2>
-              <h4>Research Insights</h4>
-              <h6><b>WHAT</b></h6>
-              <h6>Stakeholders: “We want to give our retailers more promotional space in our app and connect our users with more content”</h6>
-
-    <h6><b>HOW</b></h6>
-    <h6>Add a dedicated section for retailers to promote their specials that does not interrupt user workflows but adds engagement and discoverability</h6>
-
-    <h6><b>WHY</b></h6>
-    <h6><i>For the business</i><br>
-    Increases revenue and builds better relationships with our retailers<br><br>
-
-    <i>For the user</i><br>
-    Introduces more discoverability for easier navigation to get to top deals and new stores</h6>
-            </div>
-            <div class="col-sm-4">
-              <img class="image" src="assets/homeredesign-case/previousfeatured.png" alt="Old design of featured section">
-            </div>
-            <div class="col-sm-2"></div>
-          </div>
-      </div>
-
-      <div class="content-body">
-        <h4>Explorations and Iterations</h4>
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-sm-6">
-            <h6><b>Version 1</b></h6>
-            <h6>This was our first exploration - but we realized we wanted a more distinguishable interface for this type of content. In this version, the flyers are the same size and style, blending into the rest of the screen's content.</h6>
-          </div>
-          <div class="col-sm-6">
-            <h6><b>Version 4</b></h6>
-            <h6>We took a different approach entirely and created a separate section to promote special events hosted by our partner retailers. By differentiating it from the regular flyers, we draw our users' attention easily. I kept working on the visual hierarchy to reach our final design below.</h6>
-          </div>
-        </div>
-      </div>
-      <img src="assets/homeredesign-case/featurediterations.png">
-
-      <img src="assets/homeredesign-case/finalfeatured.png">
-      <!-- <img src="assets/homeredesign-case/featuredsection.png"> -->
-
-<!-- <div class="gray-highlight-section" style="margin-bottom: 0;">
-  <div class="content-body">
-  <h2>Looking back</h2>
-  <h6>This project was a great opportunity for me to design for business needs and work on my prototyping to motivate and empower the company to develop a more design-oriented product.
-
-<br><br>Throughout the process, I got to speak to all levels of the company to learn about the decisions behind every feature and embrace my vulnerability to ask more questions. Reebee gave me levels of ownership I didn’t expect to achieve as a young designer and allowed me to create an experience that let my visual design and interaction design skills shine through.
-
-<br><br><b>Next steps</b> - Reebee is working with retailers to create the right artwork to display in our featured section and exploring more ways to modernize the design of the rest of the app to complement the home screen.</h6> -->
-
-<!-- </div>  -->
+  </div>
 </div>
-</body>
+</div>
+
+<div class="content-body">
+  <h2 style="margin-top:10%;">Interactions + features of each experience</h2>
+  <h6>Read about the design patterns for Surface Duo outlined by Microsoft <a href="https://docs.microsoft.com/en-us/dual-screen/introduction">here</a>, which I regularly referenced when defining Microsoft News on Surface Duo.</h6>
+  <h6>Keep scrolling to read more about some of the app experiences we implemented.</h6>
+</div>
+
+<div class="row news-row">
+  <!-- <div class="col-sm-1"></div> -->
+  <div class="col-sm-7">
+    <img src="assets/news-case/newsfeedmock.png" alt="Surface Duo newsfeed mockup">
+  </div>
+  <div class="col-sm-4">
+    <h4 class="subtitle" style="margin-top: 130px;">Newsfeed</h4>
+    <h6><br>The newsfeed is a high visibility feature of Microsoft News, offering a simple, stress free browsing experience.</h6>
+    <h6><b>Topic tabs</b><br>Aligned to the vertical edge of the device for accessibility and ergonomic considerations.</h6>
+
+    <h6><b>Spanned default</b><br>First article in the newsfeed opens on the other screen.</h6>
+
+    <h6><b>Pattern: Master detail</b><br>Articles open on the other screen while the user browses and clicks articles on newsfeed.</h6>
+  </div>
+</div>
+
+<div class="content-body">
+  <h5 class="subtitle"><b>Flow behaviour diagram of the Newsfeed</b></h5>
+  <img src="assets/news-case/newsfeeddiagram.png" alt="Flow diagram of the newsfeed">
+</div>
+
+<div class="row news-row-right">
+  <!-- <div class="col-sm-1"></div> -->
+  <div class="col-sm-4">
+    <h4 class="subtitle" style="margin-top: 100px;">Article Reader in Book Mode</h4>
+    <h6><br>The Surface Duo introduced a new form factor of reading - Book Mode, where both screens are
+    used for one article. This was an enhanced feature we brought to the Surface Duo as a prime selling factor of using dual screen devices.</h6>
+    <h6><b>Entry point</b><br>Duo icon on every single screen article view in the app</h6>
+
+    <h6><b>Pattern: Two page</b><br>Article becomes paginated with page numbers on the bottom of the screen</h6>
+
+    <h6><b>Pattern: Master detail</b><br>Links, photos</h6>
+  </div>
+  <div class="col-sm-8">
+    <img src="assets/news-case/bookmodemock.png" alt="Surface Duo book mode mockup">
+  </div>
+</div>
+
+<div class="content-body">
+  <h5 class="subtitle"><b>Flow behaviour diagram for gestures within Book Mode</b></h5>
+  <img src="assets/news-case/bookmodediagram.png" alt="Flow diagram of Book Mode interactions">
+</div>
+
+<div class="content-body">
+  <h2 style="margin-top:10%;">User education</h2>
+  <h6>Incorporating pieces of user education into our new app experience was essential for early adoption of the Surface Duo. As the designer, I worked with other app teams such as Outlook, Teams and OneDrive
+    to get inspiration and maintain consistency across onboarding experiences. Primarily, we wanted to ensure we were teaching users the correct gestures on the Surface Duo, and aligning with how best to use them
+    effectively within our respective apps.<br><br>In Microsoft News, user education was built with a full screen walkthrough, multiple illustrations, empty state screens, a session with a content writer, and several tooltip drawers
+    placed at our Surface Duo-specific features.</h6>
+  <h5 class="subtitle"><b>Full Onboarding Screens</b></h5>
+  <img src="assets/news-case/onboardingmockup.png" alt="Mockup of onboarding screens">
+
+  <h5 class="subtitle"><b>Tooltip drawers</b></h5>
+  <img src="assets/news-case/tooltip.png" alt="Mockup of tooltip drawer for Book Mode">
+
+  <h5 class="subtitle"><b>Empty state prompts</b></h5>
+  <h6>Although they look simplistic, adding these empty state prompts became a key part in communicating the best way to utilise Surface Duo for Microsoft News. Oftentimes in Spanned mode, the default would be an empty state on the other screen until the user selected to view something. <br><br>Using copy and these illustrations I created with the Microsoft illustration style guide, they're meant to guide the user and set expectations on how the second screen is meant to be used.</h6>
+</div>
+
+<img style="max-width: 100%;" src="assets/news-case/emptystateprompt.png" alt="Empty state prompt screens">
+
+
+
+<div class="gray-highlight-section">
+  <div class="content-body">
+    <h2>What did we learn?</h2>
+        <h5 class="subtitle">Keep it simple</h5>
+        <ul>
+          <li>Don’t stray away from pre-existing design patterns; they're backed by research!
+          <li>Setting user expectations is key - the consistent choice is the better choice to build the familiarity across apps and devices
+        </ul>
+
+        <h5 class="subtitle">No *final* right or wrong answer</h5>
+        <ul>
+          <li>There was little opportunity to explore interactions with external users
+          <li>Expectations and feature testing is ongoing with this form factor
+          <li>With such new technology, there is a lot of opportunity to define new standards
+        </ul>
+
+        <h5 class="subtitle">Test everything and quantity over quality</h5>
+        <ul>
+          <li>Our testing approach needed to be quick, and plentiful. Testing with more users to see which gestures were the most recognizable ultimately determined our direction
+          <li>Sometimes even if our entire team agreed one action was the most logical, one user could quickly disprove it with their own opinion
+        </ul>
+</div>
+
+</div>
+
+<div class="content-body">
+  <h2 style="margin-top:10%;">What's next?</h2>
+  <img src="assets/news-case/darklight.png" alt="Dark and light mode mockup of Microsoft News on Surface Duo">
+</div>
 
 <footer>
   <div class='footer-content'>
