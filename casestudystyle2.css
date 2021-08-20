@@ -336,6 +336,21 @@ margin-bottom: 6%;
 
 }
 
+.tpc-bg {
+/* The image used */
+background-image: url("assets/tpc-case/tpc-image.png");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 6%;
+
+}
+
 .container {
   position: relative;
   height: 800px;
