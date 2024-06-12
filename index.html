@@ -1,12 +1,9 @@
 <!doctype html>
+<script src="./animations.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <html lang="en">
   <head>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-
-
-    <!-- Required meta tags -->
+		<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,157 +11,187 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/footer-basic-centered.css"> -->
 
-    <!--Import CSS into HTML-->
-    <link rel="stylesheet" href="styles.css">
+		<!--Import CSS into HTML-->
+		<link rel="stylesheet" href="styles.css">
     <title>Judy Zhong - Product Designer</title>
     <link rel="icon"
       type="image/ico"
       href="http://judyzhong.me/favicon.ico">
 
-    <script src="tabs.js"></script>
+    <!--Import fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
 
-    <!--Import tabs-->
-       <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
- 
-        [data-tab-info] {
-            display: none;
-        }
- 
-        .active[data-tab-info] {
-            display: block;
-        }
- 
-        .tab-content {
-            margin-top: 1rem;
-            padding-left: 1rem;
-            font-size: 20px;
-            font-family: sans-serif;
-            font-weight: bold;
-            color: rgb(0, 0, 0);
-        }
- 
-        .tabs {
-            border-bottom: 0;
-            background-color: transparent;
-            font-size: 130px;
-            color: transparent;
-            display: flex;
-            margin-top: 4%;
-            margin-left:2%;
-            font-family: 'Bright Melody Personal Use Only', Arial, serif;
-            -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: black;
-        }
- 
-        .tabs span {
-            background: transparent;
-            padding-right: 2%;
-            border: 0px;
-            color: transparent;
-        }
- 
-        .tabs span:hover {
-            cursor: pointer;
-            color: black;
-        }
-
-        .tabs span:active {
-          color: black;
-          background-color: transparent;
-        }
-}
-        </style> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
-  <body style="background-color: #FFF4EA">
+  <body>
 
-    <div class="bg">
-      <div class="container">
-        <h1><b>Judy Zhong</b><br>is a digital product designer who thinks <br>in <mark>systems</mark></h1>
-        <h2>Previously at DoorDash, Meta, Daybreak Studio, Square. Based in New York. Reach me on <a class="contact" href="https://www.linkedin.com/in/judy-zhongg/">Linkedin</a> or send me an <a class="contact" href="mailto:judyzhong99@hotmail.com">email</a></h2>  
-      </div>
+      <div class="bg">
+        <div class="container">
 
-      <div class="tabs">
-        <span class="tablinks" onclick="openCity(event, 'Work')">Work</span>
-        <span class="tablinks" onclick="openCity(event, 'About')">About</span>
-        <span><a href="https://read.cv/judyzhong" target=”_blank”>Resume</a></span>
-      </div>
+    <div class="topnav">
+      <a class="top hvr-underline-from-left" href="about.html">About Me</a>
+      <a class="top hvr-underline-from-left" href="presentation.html">Presentation</a>
+      <a href="index.html"><img alt="Judy Zhong logo" src="assets/logo.png" width="50px" height="50px"></a>
+      <a class="top hvr-underline-from-left" href="illustration.html">Illustration</a>
+      <a class="top hvr-underline-from-left" target="_blank" href="assets/judyzhongresume.pdf">Resume</a>
+    </div>
 
-        <div id="Work" class="tabcontent">
-          <hr>
-            <a href='duo.html'>
-              <button type="button">News on Microsoft Duo<img style="width:80px; padding:10px;" src="assets/arrow.svg"></button>      
-            </a>
-          <hr>
-            <button type="button">Pricing Insights</button>
-
-          <hr>
-            <button type="button">DoorDash's Menu Vision 2025++</button>
-
-          <hr>
-          <a href='tpc.html'>
-            <button type="button">Pregnancy Centre’s Donation Portal<img style="width:80px; padding:10px;" src="assets/arrow.svg"></button>
-          </a>
-
-          <hr>
-            <a href="https://drive.google.com/file/d/1q_oLcHybQcesxVVv3LBd3lRxF1fIvRlW/view?usp=sharing">
-            <button type="button">Business Commenting at Meta<img style="width:80px; padding:10px;" src="assets/arrow.svg"></button>
-            </a>
-
-          <hr>
-          <a href='homeredesign.html'>
-            <button type="button">Reebee’s Home Screen Redesign<img style="width:80px; padding:10px;" src="assets/arrow.svg"></button>
-          </a>
-          <hr>
-          <a href='onboarding.html'>
-            <button type="button">Reebee’s Onboarding Process<img style="width:80px; padding:10px;" src="assets/arrow.svg"></button>
-          </a>
-
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="container-text js-fade-slide-entry">
+          <h1>Judy Zhong is a digital product designer who thinks in systems</h1>
+          <h4>Previously at DoorDash, Meta, Daybreak Studios, Square</h4>
         </div>
-
-      <div id="About" class="tabcontent">
-        <hr>
-
-        <div class="container2">
-        <h3> Nice to see you! I'm Judy</h3>
-        <p>I work to design products that can teach me something new about the world. My process aims to energize through design; whether that is architecting a harmonized experience between user and product, applying my visual skills to make a feature more pleasant to use, or thinking strategically with partners to deliver on a higher level approach.<br><br>
-
-I have a background in engineering and cognitive science from the University of Waterloo. As a result, I have an affinity towards systems thinking and get nerdy for IA models and optimizations.<br><br>
-
-Outside of my Figma file, I am an active painter, badminton player, and home chef. My current home is in New York but my heart is in Toronto forever.<br><br>
-
-If any of this sounds like your vibe, send me a message and let’s chat! I’m actively looking for US visa-friendly opportunities in New York. See yaaaaaaaa!</p>
-      
-
       </div>
+
+      <div class="col-sm-2"></div>
+
+    </div>
     </div>
   </div>
 
+        <div id="projects" class="projects">
+          <!-- <img id="tedx" src="assets/newsmain.png"> -->
 
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>microsoft case study 2020</h3>
+              <h2>Exploring the interaction patterns for dual screen experiences</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">interaction design, prototyping, user testing, product strategy, journey mapping</h3>
 
-      <script>
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      </script>
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <button onclick="window.location.href = 'duo.html';" type="button">Discover the Process</button>
+          <img id="tedx" src="assets/newsmain.png">
 
-      </div>
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>doordash case study 2024</h3>
+              <h2>Democratizing DoorDash's visibility algorithm for merchant pricing</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">data visualization, systems thinking, information architecture, stakeholder management</h3>
 
-        
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <button onclick="mailto:judyzhong99@hotmail.com" type="button">Contact me</button>
+          <img id="tedx" src="assets/insightsmain.gif">
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>doordash case study 2024</h3>
+              <h2>Envisioning the future of menu management</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">visioning, visual design, prototyping</h3>
+
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <button onclick="mailto:judyzhong99@hotmail.com" type="button">Contact me</button>
+          <img id="tedx" src="assets/menumain.gif">
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>pregnancy centre case study 2021</h3>
+              <h2>Facilitating the donation process for non-profits supporting women</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">product strategy, usability testing, design mentorship, design systems</h3>
+
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <button onclick="window.location.href = 'tpc.html';" type="button">Discover the Process</button>
+          <img id="tedx" src="assets/tpc-case/tpcmain.png">
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>reebee case study 2019</h3>
+              <h2>Redesigning the home screen for discoverability</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">interaction design, visual design, prototyping</h3>
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <button onclick="window.location.href = 'homeredesign.html';" type="button">Discover the Process</button>
+          <img src="assets/featuredmain.png">
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>reebee case study 2019</h3>
+              <h2>Onboarding readers to adopt digital flyers</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">visual design, illustration</h3>
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <!-- <a href="onboarding.html">View project →</a> -->
+          <button onclick="window.location.href = 'onboarding.html';" target="_blank" type="button">Discover the Process</button>
+
+          <img src="assets/onboarding-main.png">
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>facebook case study 2020</h3>
+              <h2>Delivering lightweight ad experiences with comments for small businesses</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">prototyping, journey mapping, product thinking</h3>
+
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+
+          <button onclick="window.location.href = '.html';" type="button">Coming soon!</button>
+
+          <div class="row js-fade-slide-entry">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <h3>personal project 2019</h3>
+              <h2>Visualizing the brunch experience</h2>
+              <h3 style="margin-top: 0; margin-bottom: 40px;">visual design, illustration, journey mapping, animation, information architecture</h3>
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+          <!-- <a href="onboarding.html">View project →</a> -->
+          <button onclick="window.location.href = 'sunday.html';" target="_blank" type="button">Discover the Process</button>
+
+          <img src="assets/sunday-main.png">
+
         </div>
-  </div>
+
+          <footer class="js-fade-slide-entry">
+            <h2>👋<br>Like what you see?</h2>
+            <h4 style="padding-top: 0;">Let's find a way to collaborate.</h4>
+            <a href="https://www.linkedin.com/in/judy-zhongg/" target="new" title="Linkedin">
+              <img src="assets/linkedin.png" height="30" width="30"> </a>
+            <a href="https://dribbble.com/judyzhong"target="new" title="Dribbble">
+              <img src="assets/dribbble.png" height="30" width="30"> </a>
+          </footer>
+        </div>
   </body>
+
+	    <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="./animations.js"></script>
+
+  </body>
+</html>

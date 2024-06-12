@@ -2,219 +2,148 @@ html {
   font-family: 'Karla', sans-serif;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #fff;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+
+.snippet-body {
+  max-width: 70%;
+  margin: 0 auto !important;
+  float: none !important;
+  display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
 .js-fade-slide-entry {
   opacity: 0; /* used for animated fade-in */
   transform: translateY(15%); /* used for animated slide-up*/
   transition: opacity 1s ease-in-out, transform 1s ease-in-out
 }
 
-a:hover {
-  text-decoration: none;
-  color:black;
-}
-
-a {
-  text-decoration: none;
-  color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-}
-
 body {
-  background-color: #FFF5EF;
+  background-color: #1C202B;
   float: none !important;
   overflow-x: hidden;
-  display: block;
-  height: 100%;
-  margin-bottom: 0;
 }
 
-.container {
-  margin-left: 2%;
-  margin-top: 0;
-  margin-right: 2%;
-  max-width: 1440px;
+.about {
+  padding-top: 100px;
 }
 
-.container2 {
-  margin-left: 2%;
-  margin-top: 0;
-  padding-bottom: 4%;
-  margin-right: 6%;
-  max-width: 1440px;
+.about h3 {
   text-align: left;
+  font-size: 32px;
+  padding-bottom: 56px;
+  margin-top: 0;
 }
 
-
-@font-face {
-font-family: "Trap";
-src: url("https://judyzhong.me/css/fonts/trap-regular-webfont.woff") format("woff"),
+.about a:hover {
+  text-decoration: none;
 }
 
-@font-face {
-font-family: "Bright Melody Personal Use Only";
-/*src: url("https://yoursite.com/css/fonts/CustomFont.eot");*/
-src: url("https://judyzhong.me/fonts/bright_melody_display_typeface-webfont.woff") format("woff"),
-/*url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");*/
+.about h2 {
+  text-align: left;
+  font-size: 30px;
+  margin-top:0;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.about-icons {
+  display:inline-block;
+  width:40px;
+  /* margin-bottom: 70px; */
+  /* padding: 5px; */
+  align-items: left;
+  padding-top: 20px;
+}
+
+img.image {
+  width: 60%;
 }
 
 .bg {
 /* The image used */
-background: url("assets/bgimage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
+background-image: url("assets/bg.png");
+
+/* Full height */
+min-height: 100%;
 
 /* Center and scale the image nicely */
 background-position:center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+/*
+#bg {
+  background: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+} */
 
-.btn {
-  padding: 12px 16px;
-  font-size: 100px;
-        }
 
-
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
 
 /* Case study title */
 h1 {
-  font-size: 150px;
-  line-height: 100%;
-  text-align: left;
-  color: black;
-  font-family: 'Trap', Arial, sans-serif;
-  letter-spacing: -6px;
-  padding-top: 3%;
-  width: 100%;
-/*  font-size: 18vw;*/
+  font-size: 65px;
+  line-height: 70px;
+  font-family: 'Rozha One', serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 25px;
 }
 
 h2 {
-  font-size: 40px;
-  font-family: 'Trap', Black, sans-serif;
-  text-align: center;
-  padding-top: 50px;
-  color: black;
-  text-align: left;
+  font-size: 50px;
+  font-family: 'Work Sans', sans-serif;
   letter-spacing: -2px;
-  width: 100%;
- /* font-size: 8vw;
-  letter-spacing: 0vw;*/
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
 }
 
 h3 {
-  margin-top: 5%;
-  font-size: 50px;
-  font-family: 'Bright Melody Personal Use Only', Arial, serif;
-  color: black;
-  text-align: left;
-}
-
-h4 {
-  padding-top: 10%;
-  margin-inline: 3%;
-  font-size: 150px;
-  text-align: left;
-  color: black;
-  font-family: 'Bright Melody Personal Use Only', Arial, serif;
-}
-
-h5 {
-  font-size: 32px;
-  font-family: 'Trap', Black, sans-serif;
-}
-
-p {
-  font-size: 24px;
-  line-height: 120%;
-  font-family: 'Trap', Black, sans-serif;
-  width: 70%;
-  letter-spacing: -1px;
-
-}
-
-.text-hover {
-    width: 100%; /* Specify the width */
-    background-size: cover; /* Cover the entire area of the element */
-    transition: background-image 0.5s ease-in-out; /* Smooth transition */
-    color: black;
-    border: 0;
-    text-align: left;
-    background-color: #FFF4EA;
-}
-
-.text-hover:hover {
-    background-image: url('assets/hoverimages/duo_on_hover.png');
-/*    float:right;
-    clear: right;*/
-/*    width: 1000px;*/
-    height: 500px;
-/*    border: 0;*/
-    background-color: transparent;
-    background-position: right;
-    z-index: 20000;
-    position: fixed;
-    left: 100px;
-    top: 100px;
-
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  font-size: 100px;
-}
-
-.tooltip .tooltiptext {
-  visibility: visible;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Playfair Display', serif;
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
+  color: #fff;
+  margin-top: 100px;
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+h6 {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 20px;
+  line-height: 22px;
 }
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-hr {
-  background-color: black;
-  height: 1.5px;
-/*  width: 150%;*/
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
 footer {
   display: block;
   text-align: center;
@@ -238,42 +167,38 @@ footer a {
 }
 
 button {
-  font-size: 100px;
-  font-family: 'Trap', Arial, sans-serif;
-  color: black;
-  background-color: #FFF4EA;
-  letter-spacing: -6px;
-  line height: 50em;
-  padding-top: 18px;
-/*  padding-block: 0px;*/
-  padding-inline: 2%;
-  margin: 0px;
-  text-align: left;
-  border: 0;
-  transition: transform 0.3s ease;
-  display: block;
-  width: 100%;
-  text-align: left;
-  line height: 50px;
+  display: inline-block;
+    border: 2px solid white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    background: #1C202B;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: crosshair;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0 auto;
+    display: block;
 }
 
-.btn span.icon {
-    background: url(imgs/icon.png) no-repeat;
-    float: left;
-    width: 10px;
-    height: 40px;
+button:hover,
+button:focus {
+    background: #fff;
+    color: #1C202B;
+    border: 2px solid #fff;
 }
 
-.img {
-  width: 20px;
-  height: 20px;
+.tags {
+  color: #D1D1D1;
+  padding: 0px;
 }
 
-a.contact {
-  color: black;
-  letter-spacing: -1px;
-}
-/*footer {
+footer {
   height: 120px;
 }
 
@@ -299,9 +224,9 @@ a.contact {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-}*/
+}
 
-/*.center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -310,49 +235,28 @@ a.contact {
 
 .logocenter {
   /* display: block; */
-/*  position: relative;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 110px;
   vertical-align: middle;
-}*/
-
-mark {
-  padding: 0;
-  color: black;
-  -webkit-animation: 1s highlight 1.5s 1 normal forwards;
-          animation: 1s highlight 1.5s 1 normal forwards;
-  background-color: none;
-  background: linear-gradient(90deg, black 50%, rgba(255, 244, 234, 0) 50%);
-  background-size: 200% 50%;
-  background-position: 100% 0;
-
-  animation-delay: 1s; 
-
 }
 
-@-webkit-keyframes highlight {
-  to {
-    background-position: 0 0;
-  }
+h4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  /* width: 80%; */
+  margin: 0 auto;
 }
 
-@keyframes highlight {
-  to {
-    background-position: 0 0;
-  }
-
-  0% {
-    color: black;
-  }
-
-  95% {
-    color: #FFF4EA;
-  }
-
-  100% {
-    color: #FFF4EA;    
-  }
+.container {
+  position: relative;
+  height: 800px;
 }
 
 .landing {
@@ -360,9 +264,12 @@ mark {
   width: 100%;
 }
 
+.container-text {
+  margin-top: 90px;
+}
 
 /* Create two equal columns that sits next to each other */
-/*.column {
+.column {
   flex: 50%;
   padding: 0 4px;
 }
@@ -370,4 +277,4 @@ mark {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-}*/
+}
